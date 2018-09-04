@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select State :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+		    android:id="@+id/mySpinner1"
+	     	android:layout_width="match_parent"
+	      	android:layout_height="wrap_content"
+	      	android:textSize="14pt"
+	      	android:prompt="@string/state"/>
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select City :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+		    android:id="@+id/mySpinner2"
+	     	android:layout_width="match_parent"
+	      	android:layout_height="wrap_content"
+	      	android:textSize="14pt"
+	      	android:prompt="@string/city" />
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+      <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginRight="15dp"
+            android:text="Area" />
+
+        <RadioButton
+            android:id="@+id/radiobanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="Banner Type" />
+        
+        <RadioButton
+            android:id="@+id/radiorating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating" />
+        
+        </RadioGroup>
+    </LinearLayout>
+    
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Area :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+		    android:id="@+id/mySpinner3"
+	     	android:layout_width="match_parent"
+	      	android:layout_height="wrap_content"
+	  		android:textSize="14pt"
+	      	android:prompt="@string/area" />
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Banner Type :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+		    android:id="@+id/mySpinner4"
+		    android:textSize="14pt"
+		    android:layout_width="match_parent"
+	      	android:layout_height="wrap_content"
+	      	android:prompt="@string/banner" />
+	<TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Rating  :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+		    android:id="@+id/mySpinner5"
+	     	android:layout_width="match_parent"
+	      	android:layout_height="wrap_content"
+	      	android:textSize="14pt"
+	      	android:entries="@array/rating_array"
+        	android:prompt="@string/rating_prompt"/>
+    
+    
+    <Button
+	        android:id="@+id/bcommon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+            android:width="200dp"
+			android:text="View Review" />
+
+</LinearLayout>
+</ScrollView>

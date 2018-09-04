@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back5"
+    >
+
+    
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+              <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="ENTER EMAIL FOR VAR_CODE"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+              <EditText
+                  android:id="@+id/editText1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="28dp"
+                  android:layout_gravity="center"
+                  android:ems="10"
+                  android:hint="enter email compulsory"
+                  android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="40dp"
+        android:text="ENTER THE VAR_CODE"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+         android:id="@+id/editText2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView2"        
+         android:layout_gravity="center"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="36dp"
+         android:ems="10" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="SAVE"
+            android:width="200dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_below="@+id/button1"
+            android:layout_gravity="center"
+            android:layout_marginTop="57dp"
+            android:gravity="center_horizontal"
+            android:text="RESEND"
+            android:width="200dp" />
+        </LinearLayout>
+   
+  
+</LinearLayout>

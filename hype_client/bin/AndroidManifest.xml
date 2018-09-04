@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hype"
+    android:versionCode="1"
+    android:versionName="1.0" 	>
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hype"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:noHistory="true"
+            android:name="com.example.hype.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:noHistory="true"
+         	android:name="com.example.hype.Register"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+      <activity
+           android:noHistory="true"
+         	android:name="com.example.hype.Updatepassemail"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+      <activity
+         	android:name="com.example.hype.Map"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     
+     
+          <activity
+            android:noHistory="true"
+         	android:name="com.example.hype.About"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     
+          <activity
+			android:noHistory="true"
+            android:name="com.example.hype.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+     
+	    <activity
+            android:name="com.example.hype.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     
+	     <activity
+	          android:noHistory="true"
+	            android:name="com.example.hype.Delete"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	     </activity>
+        
+	     <activity
+	          android:noHistory="true"
+	            android:name="com.example.hype.Updatepass"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	     </activity>
+        
+	     <activity
+	          android:noHistory="true"
+	            android:name="com.example.hype.Updatepro"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	     </activity>
+     
+	     <activity
+	         	    	               	
+	         
+	            android:name="com.example.hype.History1"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+	
+		<activity
+	            android:name="com.example.hype.Historycusadp"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+	
+		<activity
+                android:noHistory="true"
+		        android:name="com.example.hype.Historyfull"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	        </activity>
+		
+		
+		<activity
+		    	android:noHistory="true"
+		        android:name="com.example.hype.Feedback"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+
+		<activity
+	            android:name="com.example.hype.Feedback1"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+	
+		<activity
+	            android:name="com.example.hype.Feedbackcusadp"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+	                   
+		<activity
+	            android:name="com.example.hype.Hoarding"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+	                  
+		<activity
+	            android:name="com.example.hype.Review"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+	    
+		<activity
+             	android:noHistory="true"
+	            android:name="com.example.hype.Review1"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+	    
+		<activity
+	            android:name="com.example.hype.Reviewcustomaddapter"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+
+			    <activity
+	         android:noHistory="true"
+	            android:name="com.example.hype.Forpass"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+	    
+	    
+	    <activity
+	         android:noHistory="true"
+	            android:name="com.example.hype.Passotp"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+	                   
+	    <activity
+	         	android:noHistory="true"
+	            android:name="com.example.hype.Chatting"
+	            android:windowSoftInputMode="adjustPan"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+		            <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+	    </activity>
+
+	    	    <activity
+				android:noHistory="true"
+	            android:name="com.example.hype.Otp"
+	            android:label="@string/app_name" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+		</activity>                   
+
+
+    
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+		  <intent-filter>
+		    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+		    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+		    <category android:name="com.example.hype" />
+		  </intent-filter>
+		</receiver>
+
+        <service android:name=".GCMIntentService" />
+        
+    </application>
+    
+    <permission android:name="com.example.hype.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.example.hype.permission.C2D_MESSAGE" />
+    
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="android.permission.INTERNET" /> 
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.VIBRATE"/>
+    
+    
+    
+</manifest>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">HYPE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="occupation_prompt">CHOOSE OCCUPATION</string>
+    <string-array name="occupation_array">
+        <item>	ARCHITECT	</item>
+		<item>	ASTROLOGER	</item>
+		<item>	CONSULTANT	</item>
+		<item>	DIAMOND	</item>
+		<item>	EDUCATION	</item>
+		<item>	ENTERPRENEUR	</item>
+		<item>	ENTERTAINMENT	</item>
+		<item>	FOOD	</item>
+		<item>	HEALTHCARE	</item>
+		<item>	TEXTILE	</item>
+		<item>	OTHER	</item>
+        </string-array>
+
+	<string name="state">CHOOSE STATE</string>
+    <string name="city">CHOOSE CITY</string>
+    <string name="area">CHOOSE AREA</string>
+    <string name="banner">CHOOSE BANNER</string>
+
+   <string name="rating_prompt">CHOOSE RATING</string>
+   <string-array name="rating_array">
+   <item >0.0</item>          
+   <item >0.5</item>     
+   <item >1.0</item>     
+   <item >1.5</item>     
+   <item >2.0</item>     
+   <item >2.5</item>     
+   <item >3.0</item>     
+   <item >3.5</item>     
+   <item >4.0</item>     
+   <item >4.5</item> 
+   <item >5.0</item>       
+   </string-array>
+        
+    <string name="banner_prompt">CHOOSE CLIENT</string>
+    <string-array name="banner_array">
+        <item>Auto Rickshaw Advertising</item>
+        <item>Mall Advertising </item>
+        <item>Airport Ads</item>
+        <item>Digital Ads </item>
+        <item>Newspaper Ads</item>
+        <item>National Highway Hoardings</item>
+        <item>3D Ads </item>
+        <item>Taxi Ads</item>
+        <item>Mobile Van Advertising</item>
+        <item>Advertisement on Buses</item>
+        <item>Advertisement on Railways </item>       
+        </string-array>
+        
+   <string name="size_prompt">CHOOSE CLIENT</string>
+   <string-array name="size_array">
+   <item >120x30</item>     
+   <item >230x33</item>     
+   <item >728x210</item>     
+   <item >720x300</item>     
+   <item >500x350</item>     
+   <item >550x480</item>   
+   <item>300x600</item>  
+   <item>94x15</item>
+   </string-array>
+    
+    
+   <string name="area_prompt">CHOOSE CLIENT</string>
+   <string-array name="area_array">
+   <item >Adajan</item>     
+   <item >Vesu</item>     
+   <item >City Light</item>     
+   <item >Althan</item>     
+   <item >Piplod</item>     
+   <item >Ghod Dod Road</item>   
+   <item>Parvat Patiya</item>  
+   </string-array>
+
+    
+   <string name="city_prompt">CHOOSE CLIENT</string>
+   <string-array name="city_array">
+   <item >Surat</item>     
+   </string-array>
+    
+   <string name="state_prompt">CHOOSE CLIENT</string>
+   <string-array name="state_array">
+   <item >gujarat</item>     
+   </string-array>
+   
+   <string name="status_prompt">CHOOSE CLIENT</string>
+   <string-array name="status_array">
+   <item >queue</item>     
+   <item >transit</item>     
+   <item >varify</item>     
+   <item >accept</item>     
+   <item >reject</item>     
+   
+   </string-array>
+    
+   
+   <string name="address_prompt">CHOOSE CLIENT</string>
+   <string-array name="address_array">
+   <item >address1</item>     
+   <item >address2</item>     
+   <item >address3</item>     
+   <item >address4</item>     
+   <item >address5</item>     
+   
+   </string-array>
+   
+    
+</resources>
